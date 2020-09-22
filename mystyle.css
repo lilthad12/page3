@@ -1,4 +1,37 @@
 body{
   display: flex;
   justify-content: center;
+  background: orange;
 }
+
+#container{
+position: relative;
+top: 100px;
+width: 500px;
+}
+
+#something{
+  background: #fff
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+ul {
+  position: relative;
+  margin-bottom: 13PX;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: left;
+}
+
+a{
+  text-decoration: none;
+  background: #FFF;
+  padding: 15px;
+
+}
+
+  a:hover{
+  background: orange;
+  }
